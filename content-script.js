@@ -11,5 +11,5 @@ function startAutoClaimer(interval) {
   setInterval(findAndClickClaimButton, interval);
 }
 
-// Startet den Auto-Claimer, der alle 5 Sekunden (5000 Millisekunden) nach dem Button sucht und ihn drückt.
+// Starts the auto-claimer that searches for and presses the button every 5 seconds (5000 milliseconds).
 startAutoClaimer(5000);
